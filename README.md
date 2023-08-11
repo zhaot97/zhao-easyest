@@ -1,2 +1,2 @@
 # zhao-easyest
-vue3+vite 构建自定义组件库 练习
+使用 Vite+Ts 开发 Vue3 组件库 练习
