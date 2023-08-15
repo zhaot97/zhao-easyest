@@ -1,5 +1,5 @@
 import { defineComponent as e, computed as a, openBlock as s, createElementBlock as u, normalizeClass as l, renderSlot as p } from "vue";
-import "./style/index.less.mjs";
+import "./style/index.css";
 const c = e({ name: "ea-button" }), d = /* @__PURE__ */ e({
   ...c,
   props: {
