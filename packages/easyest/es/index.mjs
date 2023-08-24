@@ -1,14 +1,16 @@
 import * as o from "./src/index.mjs";
-import { Button as i } from "./src/button/index.mjs";
-import { Icon as x } from "./src/icon/index.mjs";
-const r = {
+import { Button as i } from "./src/Button/index.mjs";
+import { Icon as l } from "./src/Icon/index.mjs";
+import { VisualScrollList as a } from "./src/VisualScrollList/index.mjs";
+const e = {
   install: (t) => {
-    for (let e in o)
-      t.use(o[e]);
+    for (const r in o)
+      t.use(o[r]);
   }
 };
 export {
   i as Button,
-  x as Icon,
-  r as default
+  l as Icon,
+  a as VisualScrollList,
+  e as default
 };

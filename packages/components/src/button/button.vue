@@ -4,9 +4,9 @@
 </template>
 
 <script lang="ts" setup>
-import "./style/index.less";
-import { computed } from "vue";
-defineOptions({ name: "ea-button" });
+import './style/index.less';
+import { computed } from 'vue';
+defineOptions({ name: 'ea-button' });
 type ButtonProps = {
   type?: string;
 };
@@ -16,5 +16,3 @@ const buttonStyle = computed(() => {
   return { [`ea-button--${buttonProps.type}`]: buttonProps.type };
 });
 </script>
-
-
